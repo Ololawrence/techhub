@@ -1,0 +1,36 @@
+{
+  "name": "techhub",
+  "version": "1.0.0",
+  "description": "techhub backend fir registration",
+  "main": "app.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":" nodemon --experimental-specifier-resolution=node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ololawrence/techhub.git"
+  },
+  "author": "olorunwa lawrence",
+  "license": "ISC",
+    "dependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.10",
+    "nodemon": "^2.0.12",
+    "rimraf": "^3.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Ololawrence/techhub/issues"
+  },
+  "homepage": "https://github.com/Ololawrence/techhub#readme"
+}
